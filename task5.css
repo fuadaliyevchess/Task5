@@ -1,0 +1,46 @@
+*{
+    margin: 20px;
+    margin-top: 5px;
+    padding: 0;
+}
+.services{
+    text-align: center;
+}
+.services button{
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    color: rgb(255, 153, 0);
+    background-color: rgb(255, 239, 210);
+    font-weight: bold;
+}
+.services h1{
+    color: rgb(0, 0, 99);
+    font-weight: bold;
+    font-size: 50px;
+}
+.our-marketing{
+    display: flex;
+    flex-wrap: wrap;
+}
+.marketing{
+    width: 45%;
+    border: ridge 2px;
+    height: 150px;
+}
+.marketing .fa-cloud{
+    padding: 40px;
+    float: left;
+}
+.marketing h1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.marketing p{
+    color: gray;
+}
+.marketing:hover{
+    opacity: 0.7;
+    transition: opacity 0.6s;
+}
